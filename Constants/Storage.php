@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Vairogs\Component\Settings\Constants\Enum;
+namespace Vairogs\Component\Settings\Constants;
 
 use Vairogs\Component\Functions\Iteration\_Cases;
 
 enum Storage: string
 {
     use _Cases;
+
     case FILE = 'file';
     case MEMORY = 'memory';
-
     case ORM = 'orm';
 }
